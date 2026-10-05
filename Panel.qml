@@ -69,7 +69,7 @@ Panel {
   readonly property bool isArabic: language === "Arabic"
   readonly property bool showSunrise: Model.bool(setting("showSunrise", true))
   readonly property bool showNightMarkers: Model.bool(setting("showNightMarkers", true))
-  readonly property bool centerOnBar: Model.bool(setting("centerOnBar", true))
+  readonly property bool centerOnBar: Model.bool(setting("centerOnBar", false))
   readonly property int highlightBeforeMinutes: Math.max(0, Math.round(Model.number(setting("highlightBeforeMinutes", 15), 15)))
   readonly property bool notificationsEnabled: Model.bool(setting("notifications", false))
   readonly property int notificationGraceMinutes: Math.max(1, Math.round(Model.number(setting("notificationGraceMinutes", 10), 10)))

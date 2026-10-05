@@ -39,7 +39,7 @@
       "barDisplay": "Strip + countdown",
       "showSunrise": true,
       "showNightMarkers": true,
-      "centerOnBar": true,
+      "centerOnBar": false,
       "highlightBeforeMinutes": 15,
       "notifications": false,
       "notificationGraceMinutes": 10
